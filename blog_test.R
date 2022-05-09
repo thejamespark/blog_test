@@ -17,7 +17,7 @@ serve_site() # Update site
 ## 4. Push to githug repository
 
 # For new github user: Github pat
-usethis::use_git_config(user.name = "Jinseob Kim", user.email = "jinseob2kim@gmail.com")
+usethis::use_git_config(user.name = "thejamespark", user.email = "psj482@gmail.com")
 install.packages("usethis")
 usethis::create_github_token() 
 credentials::set_github_pat()
